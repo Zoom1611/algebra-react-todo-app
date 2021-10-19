@@ -44,8 +44,7 @@ function App() {
         )}
       </div>
       <form onSubmit={handleOnSubmit}>
-        <input name="text" type="text" placeholder="Item text" onChange={handleOnChange} value={formState.text}
-        />
+        <input name="text" type="text" placeholder="Item text" onChange={handleOnChange} value={formState.text} />
         <button type="submit">Add item</button>
       </form>
     </div>
@@ -53,3 +52,4 @@ function App() {
 }
 
 export default App;
+ 
